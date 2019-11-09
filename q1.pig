@@ -26,9 +26,19 @@ states_not_in_state_table =
     FILTER feature_and_state_names 
     BY state_data::state_name IS NULL;
 
--- Filter out redundancy : bag->set
-distint_states_not_in_state_table =
-    DISTINCT states_not_in_state_table;
+-- Final table
+final_table = 
+    FOREACH states_not_in_state_table
+    GENERATE feature_data::state_name AS state_name;
 
-STORE distint_states_not_in_state_table INTO 'q1' USING PigStorage(',');
+-- Filter out redundancy : bag->set
+distint_final_table =
+    DISTINCT final_table;
+    
+-- Sort result
+sorted_final_table =
+    ORDER distint_final_table
+    BY state_name;
+    
+STORE sorted_final_table INTO 'q1' USING PigStorage(',');
 

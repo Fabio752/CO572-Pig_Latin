@@ -1,7 +1,3 @@
-Q1
-Check correctness and efficiency
-
-Q2 
-Check correctness and efficiency
-Have an UNKNOWN result (strange, look into that)
-What to do with null populations/elevations?
+check correctnesses and efficiencies
+clarify questions
+tidy up queries

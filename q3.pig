@@ -5,57 +5,34 @@
 -- Load the state, feature and populated place tables
 RUN /vol/automed/data/usgs/load_tables.pig
 
-not_null_populated_place = 
-    FILTER populated_place
-    BY (state_code IS NOT NULL,
-        county IS NOT NULL);
--- Group the entries by state_code, summing the populations and averaging the elevation
-grouped_populated_place_data =
-    GROUP not_null_populated_place BY (state_code, county);
+-- Remove not used columns in feature table
+feature_data = 
+    FOREACH feature
+    GENERATE type, county, state_name;
 
--- Sum the populations and average the elevations for places in the same states
-count_populated_places =
-    FOREACH grouped_populated_place_data {
-        GENERATE group AS (state_code, county),
-                 COUNT(populated_place) AS no_ppl;
-    }
-
--- Group the entries by state_code, summing the populations and averaging the elevation
+-- Group the entries by state name and county
 grouped_feature_data =
-    GROUP feature BY county;
+    GROUP feature_data
+    BY (state_name, county);
 
--- Sum the populations and average the elevations for places in the same states
-count_feature_streams =
-    FOREACH  grouped_feature_data {
-        GENERATE group AS county, 
-                 COUNT(feature) AS no_stream;
+-- Count the ppl types and stream types for each county
+count_ppl_stream_counties =
+    FOREACH grouped_feature_data {
+        populated_places =
+            FILTER feature_data
+            BY type == 'ppl';
+        streams = 
+            FILTER feature_data
+            BY type == 'stream'; 
+        GENERATE group.state_name AS state_name,
+                 group.county AS county,
+                 COUNT(populated_places) AS no_ppl,
+                 COUNT(streams) AS no_stream;
     }
 
--- Join on county
-county_to_places_and_streams = 
-    JOIN count_populated_places BY county,
-         count_feature_streams BY county;
-
--- Project just the columns of state we need later
-state_data =
-    FOREACH state
-    GENERATE name AS state_name, 
-             code AS state_code;
-
--- Join on state_code
-states_with_population_and_avg_elevation = 
-    JOIN state_data BY state_code,
-         county_to_places_and_streams BY state_code;
-
--- Filter out the state_codes as we don't need them in the solution
-final_states_table =
-    FOREACH states_with_population_and_avg_elevation 
-    GENERATE state_name, 
-             county_to_places_and_streams::no_ppl,
-             county_to_places_and_streams::no_stream;
-
-final_ordered_states_table = 
-    ORDER final_states_table
+-- Sort output
+sorted_count_ppl_stream_counties = 
+    ORDER count_ppl_stream_counties
     BY state_name, county;
 
-STORE final_ordered_states_table INTO 'q3' USING PigStorage(',');
+STORE sorted_count_ppl_stream_counties INTO 'q3' USING PigStorage(',');
