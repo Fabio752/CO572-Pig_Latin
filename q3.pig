@@ -10,19 +10,23 @@ feature_data =
     FOREACH feature
     GENERATE type, county, state_name;
 
+clean_feature_data = 
+    FILTER feature_data
+    BY county != 'null';
+
 -- Group the entries by state name and county
 grouped_feature_data =
-    GROUP feature_data
+    GROUP clean_feature_data
     BY (state_name, county);
 
 -- Count the ppl types and stream types for each county
 count_ppl_stream_counties =
     FOREACH grouped_feature_data {
         populated_places =
-            FILTER feature_data
+            FILTER clean_feature_data
             BY type == 'ppl';
         streams = 
-            FILTER feature_data
+            FILTER clean_feature_data
             BY type == 'stream'; 
         GENERATE group.state_name AS state_name,
                  group.county AS county,

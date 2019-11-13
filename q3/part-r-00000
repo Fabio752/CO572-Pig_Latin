@@ -65,7 +65,6 @@ Alabama,Walker,9,1
 Alabama,Washington,12,1
 Alabama,Wilcox,12,0
 Alabama,Winston,7,0
-Alabama,null,0,0
 Alaska,Aleutian Islands,0,0
 Alaska,Aleutians East,12,5
 Alaska,Aleutians West,10,0
@@ -93,13 +92,11 @@ Alaska,Valdez-Cordova,28,20
 Alaska,Wade Hampton,19,15
 Alaska,Wrangel-Petersburg,4,1
 Alaska,Yukon-Koyukuk,64,123
-Alaska,null,0,0
 American Samoa,Eastern,24,0
 American Samoa,Manu'a,5,0
 American Samoa,Rose Island,0,0
 American Samoa,Swains Island,1,0
 American Samoa,Western,15,0
-American Samoa,null,0,0
 Arizona,Apache,23,1
 Arizona,Cochise,24,0
 Arizona,Coconino,26,6
@@ -117,7 +114,6 @@ Arizona,Pinal,26,2
 Arizona,Santa Cruz,7,0
 Arizona,Yavapai,31,0
 Arizona,Yuma,26,1
-Arizona,null,0,0
 Arkansas,Arkansas,12,3
 Arkansas,Ashley,10,1
 Arkansas,Baxter,7,0
@@ -193,7 +189,6 @@ Arkansas,Washington,14,0
 Arkansas,White,19,1
 Arkansas,Woodruff,11,0
 Arkansas,Yell,16,1
-Arkansas,null,0,0
 Baker Island,Baker Island,0,0
 California,Alameda,21,0
 California,Alpine,2,0
@@ -253,10 +248,8 @@ California,Tuolumne,8,0
 California,Ventura,22,3
 California,Yolo,10,1
 California,Yuba,7,2
-California,null,0,0
 Canada-U.S.,British Columbia,0,1
 Canada-U.S.,Manitoba,0,1
-Canada-U.S.,null,0,6
 Colorado,Adams,16,0
 Colorado,Alamosa,4,0
 Colorado,Arapahoe,11,0
@@ -321,8 +314,6 @@ Colorado,Teller,5,0
 Colorado,Washington,9,0
 Colorado,Weld,36,1
 Colorado,Yuma,7,0
-Colorado,null,0,0
-Columbia,null,0,0
 Connecticut,Fairfield,27,1
 Connecticut,Hartford,12,1
 Connecticut,Litchfield,9,0
@@ -331,11 +322,9 @@ Connecticut,New Haven,12,1
 Connecticut,New London,5,2
 Connecticut,Tolland,4,0
 Connecticut,Windham,5,0
-Connecticut,null,0,0
 Delaware,Kent,8,4
 Delaware,New Castle,31,3
 Delaware,Sussex,14,2
-Delaware,null,0,0
 District of Colu,Washington,1,0
 Florida,Alachua,20,1
 Florida,Baker,4,0
@@ -404,7 +393,6 @@ Florida,Volusia,24,0
 Florida,Wakulla,9,1
 Florida,Walton,14,1
 Florida,Washington,4,1
-Florida,null,0,0
 Georgia,Appling,3,0
 Georgia,Atkinson,4,0
 Georgia,Bacon,1,0
@@ -565,15 +553,12 @@ Georgia,Wilcox,4,0
 Georgia,Wilkes,3,0
 Georgia,Wilkinson,4,0
 Georgia,Worth,8,0
-Georgia,null,0,0
 Guam,Guam,16,0
-Guam,null,0,0
 Hawaii,Hawaii,40,1
 Hawaii,Honolulu,38,5
 Hawaii,Kauai,17,2
 Hawaii,Maui,32,0
 Hawaii,Oahu,0,1
-Hawaii,null,0,0
 Howland Island,Howland Island,0,0
 Idaho,Ada,10,0
 Idaho,Adams,6,0
@@ -621,7 +606,6 @@ Idaho,TwIn Falls,0,0
 Idaho,Twin Falls,12,1
 Idaho,Valley,10,1
 Idaho,Washington,3,1
-Idaho,null,0,0
 Illinois,Adams,11,1
 Illinois,Alexander,6,1
 Illinois,Bond,8,0
@@ -724,7 +708,6 @@ Illinois,Will,30,0
 Illinois,Williamson,6,0
 Illinois,Winnebago,12,3
 Illinois,Woodford,8,0
-Illinois,null,0,0
 Indiana,Adams,3,0
 Indiana,Allen,8,2
 Indiana,Anderson,1,0
@@ -818,7 +801,6 @@ Indiana,Wayne,7,0
 Indiana,Wells,5,0
 Indiana,White,9,0
 Indiana,Whitley,4,0
-Indiana,null,0,0
 Iowa,Adair,5,0
 Iowa,Adams,9,0
 Iowa,Allamakee,6,2
@@ -918,7 +900,6 @@ Iowa,Winneshiek,11,0
 Iowa,Woodbury,15,2
 Iowa,Worth,6,0
 Iowa,Wright,8,0
-Iowa,null,0,0
 Jarvis Island,Jarvis Island,0,0
 Johnston Atoll,Johnson Atoll,0,0
 Johnston Atoll,Johnston Atoll,0,0
@@ -1028,7 +1009,6 @@ Kansas,Wichita,3,0
 Kansas,Wilson,11,1
 Kansas,Woodson,5,0
 Kansas,Wyandotte,10,1
-Kansas,null,0,0
 Kentucky,Adair,7,0
 Kentucky,Allen,4,0
 Kentucky,Anderson,2,0
@@ -1149,9 +1129,7 @@ Kentucky,Webster,9,0
 Kentucky,Whitley,6,0
 Kentucky,Wolfe,5,0
 Kentucky,Woodford,4,0
-Kentucky,null,0,0
 Kingman Reef,Kingman Reef,0,0
-Kosrae,null,0,0
 Louisiana,Acadia,11,1
 Louisiana,Allen,8,0
 Louisiana,Ascension,9,0
@@ -1218,7 +1196,6 @@ Louisiana,West Baton Rouge,5,0
 Louisiana,West Carroll,7,0
 Louisiana,West Feliciana,7,0
 Louisiana,Winn,10,2
-Louisiana,null,0,0
 Maine,Androscoggin,7,0
 Maine,Aroostook,36,2
 Maine,Cumberland,11,3
@@ -1235,10 +1212,8 @@ Maine,Somerset,16,1
 Maine,Waldo,8,0
 Maine,Washington,22,3
 Maine,York,14,3
-Maine,null,0,0
 Marshall Islands,Jaluit,0,0
 Marshall Islands,Rongelap,0,0
-Marshall Islands,null,0,0
 Maryland,Allegany,7,0
 Maryland,Anne Arundel,48,1
 Maryland,Baltimore,41,1
@@ -1264,7 +1239,6 @@ Maryland,Talbot,23,0
 Maryland,Washington,8,1
 Maryland,Wicomico,5,1
 Maryland,Worcester,5,0
-Maryland,null,0,0
 Massachusetts,Barnstable,11,0
 Massachusetts,Berkshire,9,0
 Massachusetts,Bristol,9,1
@@ -1279,7 +1253,6 @@ Massachusetts,Norfolk,35,0
 Massachusetts,Plymouth,36,0
 Massachusetts,Suffolk,5,1
 Massachusetts,Worcester,26,0
-Massachusetts,null,0,0
 Michigan,Alcona,5,0
 Michigan,Alger,9,0
 Michigan,Allegan,11,1
@@ -1363,15 +1336,12 @@ Michigan,Van Buren,10,0
 Michigan,Washtenaw,18,0
 Michigan,Wayne,45,6
 Michigan,Wexford,5,0
-Michigan,null,0,0
 Micronesia,Chuuk,0,0
 Micronesia,Kosrae,0,0
 Micronesia,Pohnpei,0,0
 Micronesia,Yap,0,0
-Micronesia,null,0,0
 Midway Island,Midway Islands,0,0
 Midway Islands,Midway Islands,0,0
-Midway Islands,null,0,0
 Minnesota,Aitkin,14,1
 Minnesota,Anoka,17,1
 Minnesota,Becker,15,0
@@ -1461,7 +1431,6 @@ Minnesota,Wilkin,9,2
 Minnesota,Winona,13,0
 Minnesota,Wright,12,0
 Minnesota,Yellow Medicine,10,1
-Minnesota,null,0,0
 Mississippi,Adams,3,0
 Mississippi,Alcorn,5,0
 Mississippi,Amite,7,0
@@ -1544,7 +1513,6 @@ Mississippi,Wilkinson,7,2
 Mississippi,Winston,4,0
 Mississippi,Yalobusha,5,0
 Mississippi,Yazoo,12,1
-Mississippi,null,0,0
 Missouri,Adair,4,0
 Missouri,Andrew,3,0
 Missouri,Atchison,5,1
@@ -1661,7 +1629,6 @@ Missouri,Wayne,9,0
 Missouri,Webster,7,0
 Missouri,Worth,3,0
 Missouri,Wright,7,0
-Missouri,null,0,0
 Montana,Beaverhead,14,1
 Montana,Big Horn,11,1
 Montana,Blaine,13,0
@@ -1719,7 +1686,6 @@ Montana,Valley,16,4
 Montana,Wheatland,6,0
 Montana,Wibaux,3,0
 Montana,Yellowstone,11,2
-Montana,null,0,0
 Navassa Island,Navassa Island,0,0
 Nebraska,Adams,9,0
 Nebraska,Antelope,6,0
@@ -1814,7 +1780,6 @@ Nebraska,Wayne,5,0
 Nebraska,Webster,7,0
 Nebraska,Wheeler,2,0
 Nebraska,York,9,0
-Nebraska,null,0,0
 Nevada,Carson City,0,0
 Nevada,Churchill,7,2
 Nevada,Clark,23,3
@@ -1833,7 +1798,6 @@ Nevada,Pershing,11,1
 Nevada,Storey,1,0
 Nevada,Washoe,17,1
 Nevada,White Pine,10,1
-Nevada,null,0,0
 New Hampshire,Belknap,7,0
 New Hampshire,Carroll,9,0
 New Hampshire,Cheshire,9,0
@@ -1845,7 +1809,6 @@ New Hampshire,Merrimack,10,0
 New Hampshire,Rockingham,12,0
 New Hampshire,Strafford,5,1
 New Hampshire,Sullivan,7,0
-New Hampshire,null,0,0
 New Jersey,Atlantic,10,0
 New Jersey,Bergen,45,0
 New Jersey,Burlington,43,0
@@ -1867,7 +1830,6 @@ New Jersey,Somerset,39,0
 New Jersey,Sussex,29,0
 New Jersey,Union,14,0
 New Jersey,Warren,5,1
-New Jersey,null,0,0
 New Mexico,Bernalillo,10,0
 New Mexico,Catron,5,1
 New Mexico,Chaves,10,2
@@ -1903,7 +1865,6 @@ New Mexico,Taos,15,0
 New Mexico,Torrance,18,0
 New Mexico,Union,13,2
 New Mexico,Valencia,24,0
-New Mexico,null,1,0
 New York,Albany,7,0
 New York,Allegany,12,0
 New York,Bronx,1,0
@@ -1966,7 +1927,6 @@ New York,Wayne,8,0
 New York,Westchester,65,1
 New York,Wyoming,6,0
 New York,Yates,4,0
-New York,null,0,0
 North Carolina,Alamance,7,0
 North Carolina,Alexander,3,0
 North Carolina,Alleghany,2,0
@@ -2068,7 +2028,6 @@ North Carolina,Wilson,5,0
 North Carolina,Yadkin,4,0
 North Carolina,Yancey,4,0
 North Carolina,Yancy,0,1
-North Carolina,null,0,0
 North Dakota,Adams,4,1
 North Dakota,Barnes,11,1
 North Dakota,Benson,14,0
@@ -2123,13 +2082,11 @@ North Dakota,Walsh,14,2
 North Dakota,Ward,13,1
 North Dakota,Wells,8,0
 North Dakota,Williams,13,1
-North Dakota,null,0,0
 Northern Mariana,Northern Island,0,0
 Northern Mariana,Northern Islands,0,0
 Northern Mariana,Rota,1,0
 Northern Mariana,Saipan,3,0
 Northern Mariana,Tinian,0,0
-Northern Mariana Islands,null,0,0
 Ohio,Adams,7,0
 Ohio,Allen,9,0
 Ohio,Ashland,10,0
@@ -2219,7 +2176,6 @@ Ohio,Wayne,13,0
 Ohio,Williams,9,0
 Ohio,Wood,20,0
 Ohio,Wyandot,6,0
-Ohio,null,0,0
 Oklahoma,Adair,6,0
 Oklahoma,Alfalfa,12,2
 Oklahoma,Atoka,9,0
@@ -2297,7 +2253,6 @@ Oklahoma,Washington,7,0
 Oklahoma,Washita,8,0
 Oklahoma,Woods,10,0
 Oklahoma,Woodward,7,2
-Oklahoma,null,0,0
 Oregon,Baker,12,2
 Oregon,Benton,8,0
 Oregon,Clackamas,12,3
@@ -2335,9 +2290,7 @@ Oregon,Washington,10,0
 Oregon,Wheeler,5,0
 Oregon,Wheeller,0,0
 Oregon,Yamhill,8,1
-Oregon,null,0,0
 Palau,Koror,0,0
-Palau,null,0,0
 Palmyra Atoll,Palmyra Atoll,0,0
 Pennsylvania,Adams,7,0
 Pennsylvania,Allegheny,130,3
@@ -2407,8 +2360,6 @@ Pennsylvania,Wayne,9,0
 Pennsylvania,Westmoreland,83,0
 Pennsylvania,Wyoming,4,0
 Pennsylvania,York,15,1
-Pennsylvania,null,0,0
-Ponape,null,0,0
 Puerto Rico,Adjuntas,1,0
 Puerto Rico,Aguada,1,1
 Puerto Rico,Aguadilla,3,0
@@ -2499,13 +2450,11 @@ Puerto Rico,Vieques,4,0
 Puerto Rico,Villalba,0,0
 Puerto Rico,Yabucoa,1,0
 Puerto Rico,Yauco,2,0
-Puerto Rico,null,0,0
 Rhode Island,Bristol,1,1
 Rhode Island,Kent,3,0
 Rhode Island,Newport,1,0
 Rhode Island,Providence,7,0
 Rhode Island,Washington,5,2
-S.Dak.,null,0,0
 South Carolina,Abbeville,4,0
 South Carolina,Aiken,15,0
 South Carolina,Allendale,6,0
@@ -2552,7 +2501,6 @@ South Carolina,Sumter,8,0
 South Carolina,Union,5,1
 South Carolina,Williamsburg,8,0
 South Carolina,York,8,0
-South Carolina,null,0,0
 South Dakota,Aurora,4,0
 South Dakota,Beadle,7,0
 South Dakota,Bennett,7,0
@@ -2623,7 +2571,6 @@ South Dakota,Union,7,0
 South Dakota,Walworth,6,0
 South Dakota,Yankton,6,1
 South Dakota,Ziebach,7,2
-South Dakota,null,0,0
 Tennessee,Anderson,7,0
 Tennessee,Bedford,6,0
 Tennessee,Benton,4,1
@@ -2719,7 +2666,6 @@ Tennessee,Weakley,6,0
 Tennessee,White,3,0
 Tennessee,Williamson,7,0
 Tennessee,Wilson,6,0
-Tennessee,null,0,0
 Texas,Anderson,11,0
 Texas,Andrews,2,0
 Texas,Angelina,10,0
@@ -2975,10 +2921,6 @@ Texas,Yoakum,2,0
 Texas,Young,7,1
 Texas,Zapata,6,0
 Texas,Zavala,4,0
-Texas,null,0,0
-Truk,null,0,0
-U.S.-Canada,null,0,3
-U.S.-Mexico,null,0,2
 Utah,Beaver,7,0
 Utah,Box Elder,26,2
 Utah,Cache,10,3
@@ -3011,7 +2953,6 @@ Utah,Wasatch,5,0
 Utah,Washington,19,1
 Utah,Wayne,10,3
 Utah,Weber,7,1
-Utah,null,0,0
 Vermont,Addison,6,1
 Vermont,Bennington,8,0
 Vermont,Caledonia,6,0
@@ -3026,11 +2967,9 @@ Vermont,Rutland,8,0
 Vermont,Washington,5,2
 Vermont,Windham,8,0
 Vermont,Windsor,8,2
-Vermont,null,0,0
 Virgin Islands,Saint Croix,0,0
 Virgin Islands,Saint John,0,0
 Virgin Islands,Saint Thomas,0,0
-Virgin Islands,null,0,0
 Virginia,Accomack,10,0
 Virginia,Albemarle,7,0
 Virginia,Alleghany,4,0
@@ -3135,7 +3074,6 @@ Virginia,Westmoreland,4,0
 Virginia,Wise,8,0
 Virginia,Wythe,8,0
 Virginia,York,2,0
-Virginia,null,0,0
 Wake Island,Wake Island,0,0
 Washington,Adams,13,1
 Washington,Asotin,3,1
@@ -3176,7 +3114,6 @@ Washington,Walla Walla,11,3
 Washington,Whatcom,17,0
 Washington,Whitman,27,2
 Washington,Yakima,23,4
-Washington,null,0,0
 West Virginia,Barbour,3,1
 West Virginia,Berkeley,4,1
 West Virginia,Boone,7,0
@@ -3232,7 +3169,6 @@ West Virginia,Wetzel,6,0
 West Virginia,Wirt,2,1
 West Virginia,Wood,9,0
 West Virginia,Wyoming,7,0
-West Virginia,null,0,0
 Wisconsin,Adams,10,0
 Wisconsin,Ashland,10,0
 Wisconsin,Barron,14,0
@@ -3306,7 +3242,6 @@ Wisconsin,Waupaca,14,0
 Wisconsin,Waushara,14,0
 Wisconsin,Winnebago,10,1
 Wisconsin,Wood,13,0
-Wisconsin,null,0,0
 Wyoming,Albany,14,0
 Wyoming,Big Horn,15,3
 Wyoming,Campbell,9,0
@@ -3331,5 +3266,3 @@ Wyoming,Uinta,12,0
 Wyoming,Unita,1,1
 Wyoming,Washakie,3,2
 Wyoming,Weston,7,1
-Wyoming,null,0,0
-Yap,null,0,0

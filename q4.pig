@@ -16,21 +16,27 @@ ppl_data =
 state_data =
     FOREACH state
     GENERATE code, name;
+
 -- Join the two tables on the state_code
 ppl_full_data = 
     JOIN state_data BY code,
          ppl_data BY state_code;
 
 -- Remove the state_code column 
-ppl_data = 
+ppl_full_needed_data = 
     FOREACH ppl_full_data
     GENERATE state_data::name AS state_name,
              ppl_data::name AS name,
              population;
 
+-- Remove the null population rows
+ppl_full_not_null_data =
+    FILTER ppl_full_needed_data
+    BY population IS NOT NULL;
+
 -- Group the result by name of the state
 grouped_ppl_data = 
-    GROUP ppl_data
+    GROUP ppl_full_not_null_data
     BY state_name;
 
 -- Sort it by the name of the state
@@ -42,7 +48,7 @@ sorted_ppl_data =
 five_most_populated =
     FOREACH sorted_ppl_data {
         sort_pop =
-            ORDER ppl_data
+            ORDER ppl_full_not_null_data
             BY population DESC, name;
 
         pop_limit = LIMIT sort_pop 5;
